@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet"  href="style.css">
+
+	
+	<title>Survey Form</title>
+
+</head>
+<body>
+	
+	<div class="main">
+		<h1 id="title">freeCodeCamp Survey Form</h1>
+		<p id="description">Thank you for taking the time to help us improve the platform</p>
+	
+	    <div id="body">
+	    <form id="survey-form">
+
+	    	<label id="namr-label" for="name">
+	    		<p>Name</p>
+	    	</label>
+
+	    	<input id="name" type="text" placeholder="Enter Your Name" required>
+
+
+	    	<label id="Email-label" for="email">
+	    		<p>Email</p>
+	    	</label>
+	    	
+	    	<input id="Email" type="Email" placeholder="Enter Your Email" required>
+
+
+	    	<label id="number-label" for="number">
+	    		<p>Age</p>
+	    	</label>
+	    	
+	    	<input id="Age" type="number" placeholder="Enter Your Age" min="10" max="50" required>
+
+	    	<p>Which option best describes your current role?</p>
+
+	    	<select id="dropdown">
+
+            <option value="default">Select Your Current Roll</option>
+	    	<option value="dropdown">Student</option>
+	    	<option value="dropdown">Full Time Job</option>
+	    	<option value="dropdown">Full Time Learner</option>
+	    	<option value="dropdown">Perfer not to say</option>
+	    	<option value="dropdown">Other</option>
+
+	    	</select>
+
+	    	<p>Would you recommend freeCodeCamp to a friend?</p>
+
+	    	<input type="radio" value="1">Definitely</input>
+	    	<br>
+	    	<input type="radio" value="1">Maybe</input>
+	    	<br>
+	    	<input type="radio" value="1">Not Sure</input>
+	    	<br>
+
+	    	<p>What is your favorite feature of freeCodeCamp?</p>
+
+	    	<select id="dropdown">
+
+            <option value="default">Select an option</option>
+	    	<option value="dropdown">challenges</option>
+	    	<option value="dropdown">projects</option>
+	    	<option value="dropdown">community</option>
+	    	<option value="dropdown">open source</option>
+	    	
+	    	</select>
+
+	    	<p>What would you like to see improved? (Check all that apply)</p>
+
+	    	<input type="checkbox" value="1">Front-end Projects</input>
+	    	<br>
+	    	<input type="checkbox" value="1">Back-end Projects</input>
+	    	<br>
+	    	<input type="checkbox" value="1">Data Visualization</input>
+	    	<br>
+	    	<input type="checkbox" value="1">Challenges</input>
+	    	<br>
+	    	<input type="checkbox" value="1">Open Source Community</input>
+	    	<br>
+	    	<input type="checkbox" value="1">GVideos</input>
+	    	<br>
+	    	<input type="checkbox" value="1">City Meetups</input>
+	    	<br>
+	    	<input type="checkbox" value="1">Wiki</input>
+	    	<br>
+	    	<input type="checkbox" value="1">Forum</input>
+	    	<br>
+	    	<input type="checkbox" value="1">Additional Coueses</input>
+	    	<br>
+
+	    	<p>Any comments or suggestions?</p>
+
+	    	<textarea id="comment"></textarea>
+	    	<br>
+
+	    	<input id="submit" type="submit" value="submit"></input>
+	    </form>
+	
+	</div>
+</div>
+	
+    
+</body>
+</html>
