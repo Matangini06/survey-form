@@ -96,7 +96,7 @@ html{
 }
 
 #dropdown{
-	width: 450px;
+	width: 480px;
 	padding: 15px;
 	border-radius: 5px;
 }
@@ -105,7 +105,7 @@ html{
 	border-radius: 5px;
 	padding: 50px;
 	border: none;
-	width: 350px;
+	width: 380px;
 }
 
 #submit{
