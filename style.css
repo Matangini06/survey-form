@@ -68,6 +68,9 @@ html{
 
 
 @media(max-width: 760px){
+	.main{
+	     min-width: 760px;
+	}
 	
 	#body{
 		width: 500px;
