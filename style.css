@@ -65,3 +65,14 @@ html{
 	margin-top: 20px;
 	background-color: #37af65;
 }
+
+
+@media(max-width: 760px){
+	.main{
+	     min-widt: 760px;
+	}
+	#body{
+		width: 300px;
+	}
+}
+
