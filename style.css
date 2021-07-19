@@ -74,6 +74,7 @@ html{
 	#body{
 		width: 500px;
 		border-radius: 50px;
+		padding: 50px;
 	}
 }
 
