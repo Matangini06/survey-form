@@ -68,9 +68,7 @@ html{
 
 
 @media(max-width: 760px){
-	.main{
-	     min-widt: 760px;
-	}
+	
 	#body{
 		width: 500px;
 		border-radius: 50px;
