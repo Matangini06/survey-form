@@ -72,7 +72,8 @@ html{
 	     min-widt: 760px;
 	}
 	#body{
-		width: 300px;
+		width: 500px;
+		border-radius: 50px;
 	}
 }
 
